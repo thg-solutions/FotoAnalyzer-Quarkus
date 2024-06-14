@@ -1,0 +1,5 @@
+[versions]
+metadata-extractor = '2.19.0'
+
+[libraries]
+metadata-extractor = {module = 'com.drewnoakes:metadata-extractor', version.ref = 'metadata-extractor'}
