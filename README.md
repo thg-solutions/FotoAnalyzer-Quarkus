@@ -8,6 +8,16 @@ Wie Helidon, aber im Gegensatz zu Payara, ist Contructor-Injection möglich, ein
 
 siehe https://github.com/thg-solutions/FotoAnalyzer-Helidon-MP/blob/main/README.md.
 
+## Erweiterungen
+
+### Swagger
+
+Durch Integration der Extension `quarkus-smallrye-openapi` ist mittels
+```
+curl localhost:8080/swagger[?format=json]
+```
+die OpenAPI-Definition der REST-Schnittstelle abrufbar.
+
 # fotoanalyzer-quarkus
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
